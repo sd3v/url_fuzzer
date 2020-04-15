@@ -16,5 +16,11 @@ pip install requests
 python fuzzer.py <URL> <Wordlist> <name_for_the_logfile>
 ```
 
+## Example
+
+```bash
+python fuzzer.py https://google.de test.wordlist Results.log
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
